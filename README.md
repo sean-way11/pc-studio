@@ -1,4 +1,4 @@
-# PC Studio — beta
+﻿# PC Studio — beta
 
 Windows-приложение для диагностики и выбранных пользователем настроек быстродействия. Установка не требуется; нужен .NET Framework 4.x в Windows 10 или 11. EXE не подписан, поэтому Windows может показать SmartScreen.
 
@@ -12,4 +12,4 @@ Windows-приложение для диагностики и выбранных
 На Windows 11 проверено открытие окна и экран выбора. Применение, повторное применение и возврат проверены в имитации без изменения Windows; фактическое применение и откат на Windows 10 и 11 ещё не проверены. Устранять системные ошибки автоматически без выбора и подтверждения программа не будет.
 
 ## Сборка
-Запустите `powershell -NoProfile -ExecutionPolicy Bypass -File build.ps1` на Windows с .NET Framework 4.x. Исходники: Program.cs и MainWindow.xaml.
+Запустите `powershell -NoProfile -ExecutionPolicy Bypass -File build.ps1` на Windows с .NET Framework 4.x. Исходники: Program.cs, MainWindow.xaml и PC-Studio.ico. Иконка подготовлена из утверждённого логотипа SiteWorksStudio.
